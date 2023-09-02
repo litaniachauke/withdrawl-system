@@ -12,6 +12,10 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.List;
 import java.util.UUID;
+
+/**
+ * The type Withdrawal service notice implementation.
+ */
 @Service
 public class WithdrawalServiceNoticeImplementation implements WithdrawalNoticeServices {
     @Autowired
